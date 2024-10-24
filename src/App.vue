@@ -2,14 +2,19 @@
   <div id="app" style="display: flex; justify-content: space-between; align-content: center;">
     <HeaderMenu/>
   </div>
+  <div>
+    <CategoryMenu/>
+  </div>
 </template>
 
 <script>
 import HeaderMenu from './components/HeaderMenu.vue';
+import CategoryMenu from './components/CategoryMenu.vue';
 
 export default {
     components: {
         HeaderMenu,
+        CategoryMenu
       },
     };
 </script>

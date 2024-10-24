@@ -2,7 +2,7 @@
   <img alt="Vue logo" src="../assets/logo.png" class="headerLogo" />
   <div style="display: flex; justify-content: center;">
     <input type="text" placeholder="Search . . ." class="searchInput" />
-    <img alt="Search icon" src="../assets/search-icon.svg" style="max-width: 24px; max-height: 24px;margin-top: 3%;" />
+    <img alt="Search icon" src="../assets/search-icon.svg" style="max-width: 38px; max-height: 38px; margin-top: 3%; margin-left: 5%;"/>
   </div>
   <div>
     <div class="hamburger" @click="toggleMenu">
@@ -78,8 +78,7 @@ export default {
   background-color: #f8f9fa;
   position: absolute;
   top: 20px;
-  margin-top: 10%;
-  right: 10%;
+  right: 5%;
   border: 1px solid #ddd;
   border-radius: 5px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -100,8 +99,8 @@ export default {
 }
 
 .headerLogo {
-  max-width: 15%;
-  max-height: 15%;
+  max-width: 8%;
+  max-height: 8%;
 }
 
 .searchInput {
@@ -109,8 +108,8 @@ export default {
   background-color: transparent;
   font-size: 18px;
   color: black;
-  max-width: 165px;
-  max-height: 16px;
+  max-width: 192px;
+  max-height: 32px;
   margin-top: 5%;
   accent-color: #42b883;
 }
